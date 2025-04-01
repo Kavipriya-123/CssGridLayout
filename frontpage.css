@@ -1,0 +1,164 @@
+body{
+    font-family:"Roboto";
+    margin:0px;
+}
+.logo-head{
+    letter-spacing: 2px;
+}
+marquee{
+ color:black;
+ font-size:25px;
+}
+
+.front-page-cont{
+    background-image:url("./nat.jpeg");
+    background-size:cover;
+    height:100vh;
+}
+
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    padding-left:10px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 45vw;
+    padding-right:40px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.home-btn-cont{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.btn-warning{
+    width:190px;
+    font-size:20px;
+    text-align: center;
+    border-width:0px;
+    background-color:yellow;
+    color:black;
+    font-family:"Roboto";
+    border-radius:15px;
+    height:40px;
+    cursor: pointer;
+}
+
+.btn-light{
+    width:190px;
+    font-size:20px;
+    text-align: center;
+    border:2px solid white;
+    background-color:transparent;
+    color:white;
+    font-family:"Roboto";
+    border-radius:15px;
+    height:40px;
+    background-color: brown;
+    cursor: pointer;
+}
+.front-main-content{
+    margin-top:50px;
+    text-align: center;
+    color:white;
+}
+.main-head{
+    font-size:35px;
+}
+.main-para{
+    font-size:20px;
+    
+}
+
+.card-cont{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:20px;
+    margin-top:80px;
+    padding: 20px;
+}
+.card-head{
+    text-align: center;
+}
+.card-para{
+    text-align: left;
+}
+.card{
+    background-color: white;
+    padding:10px;
+    color:black;
+    border-radius: 10px;
+    width:300px;
+    height:250px;
+    text-align: center;
+}
+.card:hover{
+    background-color: rgb(173, 102, 102);
+}
+
+/*second-page*/
+
+.second-page-cont{
+    background-image:url("./animal.jpg");
+    background-size:cover;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    align-items: center;
+}
+.second-main-cont{
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.second-main-para{
+    font-size:20px;
+}
+.second-main-head{
+    font-size:38px;
+}
+
+/*third-page*/
+
+.third-page{
+    font-family: "Robot";
+    height: 100vh;
+    padding:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-card-cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 200px;
+    gap:40px;
+    flex-wrap: wrap;
+    width:80vw;
+    align-self: center;
+}
+.third-card{
+    display: flex;
+    gap:20px;
+    text-align: left;
+}
+.tick-image{
+    width:50px;
+    height: 50px;
+    margin-top:20px;
+}
